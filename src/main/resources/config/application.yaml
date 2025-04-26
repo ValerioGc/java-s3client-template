@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: spring-s3utils-template
+
+server: 
+  port: 8081
+
+cloud:
+  aws:
+    s3:
+      region: region
+      credentials:
+        secret-key: XXXXXXXXXXXXXXXXXX
+        app-key: XXXXXXXXXXXXXXXXXX
+      bucket-name: bucket-name
+      endpoint: https://s3.eu-north-1.amazonaws.com
+
+logging:
+  level:
+    root: DEBUG
+
