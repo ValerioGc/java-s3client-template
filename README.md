@@ -95,8 +95,3 @@ src/main/java/it/s3utils/
 │
 └─ S3UtilsApplication.java
 ```
-
-
-## License
-
-This project is licensed under the [0BSD License](LICENSE).
